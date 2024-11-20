@@ -6,7 +6,7 @@
     --branco: white;
     --cinza: #435b53;
     --laranja: #ff8900;
-    --preto: #313835;
+    --preto: #181818;
     --header_padrao: 16px;
 }
 
@@ -138,9 +138,9 @@ nav a:hover{
 .meio{
     padding-top: 175px;
     width: 100%;
-    height: 1200px;
+    height: 800px;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)), url(../images/light-bulb-with-miniature-house.jpg);
+    background-image: linear-gradient(to bottom, rgba(42, 39, 39, 0.6), rgba(0, 0, 0, 0.3)), url(../images/light-bulb-with-miniature-house.jpg);
     background-position: 50%;
     background-size: cover;
   
@@ -164,9 +164,11 @@ nav a:hover{
 
 .textos p{
 
-    color: var(--preto);
+    color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: var(--header_padrao);
+    margin-top: 30px;
+    font-weight: 700;
     
 
 }
@@ -175,26 +177,27 @@ nav a:hover{
     width: 725px;
 }
 .textos h1{
-   color: var(--preto);
+   color: var(--branco);
    font-family: var(--fonte-principal);
-   font-size: 39px;
-   margin-bottom: 25px;
+   font-size: 45px;
+   margin-bottom: 60px;
+   font-weight: 900;
  
 }
 
 .textos h5{
     margin-top: 0;
     margin-bottom: 0;
-    color:var(--preto);
+    color:var(--branco);
     font-size: 16px;
     font-family: var(--fonte-principal);
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     width: 400px;
 
 }
 
 .cards{
-    margin-top: 150px;
+    margin-top: 250px;
     height: 400px;
     width: 100%;
     display: flex;
@@ -212,7 +215,7 @@ nav a:hover{
     padding: 10px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: gray 1px 2px 1px;
+    box-shadow: gray 1px 1px 3px;
     font-family: var(--fonte-principal);
     font-size: var(--header_padrao);
     text-align: center;
@@ -220,6 +223,92 @@ nav a:hover{
         height: 100px;
     }
 }
+
+.textos_finais{
+    height: 900px;
+    width: 100%;
+    background-color: #edf4f1;
+}
+.final{
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf4f1;
+    padding-top: 200px;
+    
+    
+
+}
+
+
+.final p{
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: var(--header_padrao);
+
+}
+
+.final h1{
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.final h5{
+    color:var(--preto);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    width: 400px;
+    text-align: center;
+    
+}
+
+.imagens_final{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+
+    img{
+        height: 340px;
+        width: 50%;
+        margin: 0 60px;
+        border-radius: 20px;
+    }
+}
+
+.textos1{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 55px;
+    text-align: justify;
+    
+    h3{
+        color: var(--preto);
+        font-family: var(--fonte-principal);
+        font-size: 18px;
+        padding-right:750px ;
+        
+        
+    }
+
+    p{
+        font-family: var(--fonte-principal);
+    }
+}
+
+
+    
+
+
+
+
 .rodape{
     display: grid;
     grid-template-areas: 
@@ -229,7 +318,7 @@ nav a:hover{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    background-color: var(--roxo);
+    background-color: var(--preto);
     height: 20rem;
     padding-top: 1rem;
     

@@ -113,7 +113,7 @@ nav a:hover{
 
 }
 .meio{
-    padding-top: 150px;
+    padding-top: 400px;
     width: 100%;
     height: 1200px;
     background-repeat: no-repeat;
@@ -124,7 +124,6 @@ nav a:hover{
  
   
 }
-
 
 .textos{
     width: 100%;
@@ -138,6 +137,10 @@ nav a:hover{
     
 
     
+}
+.textos img{
+    height: 500px;
+    width: 725px;
 }
 .textos h1{
    color: white;
@@ -153,6 +156,7 @@ nav a:hover{
     color: white;
     font-size: 16px;
     font-family: var(--fonte-principal);
+    margin-bottom: 25px;
 
 }
 

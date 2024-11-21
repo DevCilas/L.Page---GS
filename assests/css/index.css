@@ -26,6 +26,7 @@ header{
     height: 80px;
     background-color: var(--branco);
     position: fixed;
+    z-index: 999;
 
    
    
@@ -215,6 +216,7 @@ nav a:hover{
     column-gap: 3%;
     box-sizing: border-box;
     
+    
 
    
 
@@ -249,6 +251,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 5%;
 }
 .final{
     width: 100%;
@@ -296,7 +299,7 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 100px;
+
 
     img{
         height: 340px;

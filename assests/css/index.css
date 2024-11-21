@@ -126,7 +126,7 @@ nav a:hover {
 
 .sbotao {
 
-    grid-column: 5/6;
+    cursor: pointer;
     border: 1px solid var(--verde);
     border-radius: 4px;
     background-color: var(--verde);
@@ -143,6 +143,7 @@ nav a:hover {
 .sbotao:hover {
     opacity: 0.9;
     transform: scale(1.1);
+    
 
 }
 

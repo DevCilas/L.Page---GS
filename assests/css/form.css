@@ -1,14 +1,63 @@
+:root {
+    --fonte-principal: "Montserrat";
+    --verde: #00b73f;
+    --roxo: #230b42;
+    --branco: white;
+    --cinza: #435b53;
+    --laranja: #ff8900;
+    --preto: #181818;
+    --header_padrao: 16px;
+}  
+
+
 .form {
+    height: 60%;
     font-size: 4rem;
     display: none;
     background-color: #f1f1f1;
     padding: 3rem;
+    margin: auto;
     border: 1px solid #ccc;
     border-radius: 1rem;
-    width: 30dvw;
+    width: 25dvw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
+    
+}
+
+.form label{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 10%;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.form h1{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    justify-self: center;
+    margin-bottom: 10%;
+}
+
+.form img{
+    height: 20%;
+    margin: 0 42%;
+}
+
+.form a{
+    margin: 40%;
 }

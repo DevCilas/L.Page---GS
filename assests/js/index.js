@@ -1,7 +1,7 @@
-var login_form = document.querySelector('#loginForm');
-var corpo = document.querySelector('#corpo')
+var login_form = document.querySelector('.form');
 
-document.querySelector('#login').addEventListener('click', function () {
+
+document.querySelector('#entrar').addEventListener('click', function () {
     if (login_form.style.display === 'none' || login_form.style.display === '') {
         login_form.style.display = 'block';
     } else {

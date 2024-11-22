@@ -83,7 +83,7 @@ function logar() {
             
             
           }).then((result) => {
-           location.href = "../assests/pages/home.html"
+           location.href = "assests/pages/home.html"
 
         })
         login_form.style.display = 'none';

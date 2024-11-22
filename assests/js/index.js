@@ -75,7 +75,7 @@ function logar() {
     if(user == "admin" && senha == "admin"){
         Swal.fire({
             title: 'Login efetuado com sucesso!',
-            text: 'Você será redicrecionado',
+            text: 'Você será redirecionado',
             icon: 'success',
             confirmButtonText: 'OK',
             confirmButtonColor: '#00b73f',

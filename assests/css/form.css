@@ -36,14 +36,18 @@
 
 }
 
+
 .form input{
-    padding: 0 2%;
+    
+    padding: 0 10% 0 2%;
     width: 100%;
     margin-bottom: 10%;
     font-family: var(--fonte-principal);
     font-size: 20px;
     display: flex;
     justify-content: start;
+    outline: 0;
+    
 
 }
 

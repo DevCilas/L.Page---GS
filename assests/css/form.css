@@ -37,6 +37,7 @@
 }
 
 .form input{
+    padding: 0 2%;
     width: 100%;
     margin-bottom: 10%;
     font-family: var(--fonte-principal);

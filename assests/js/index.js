@@ -107,7 +107,7 @@ function logar() {
           }
         ).then((result) => {
             if (result.isDismissed) {
-                location.href = "index.html"
+                location.reload()
             } 
 
         })

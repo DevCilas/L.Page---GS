@@ -2,6 +2,7 @@ var login_form = document.querySelector('.form');
 
 
 
+
 document.querySelector('#botao1').addEventListener('click', function () {
     if (login_form.style.display === 'none' || login_form.style.display === '') {
         login_form.style.display = 'block';
@@ -74,12 +75,17 @@ function logar() {
     if(user == "admin" && senha == "admin"){
         Swal.fire({
             title: 'Login efetuado com sucesso!',
-            text: 'Você será redirecionado',
+            text: 'Você será redicrecionado',
             icon: 'success',
-            confirmButtonText: 'OK'
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#00b73f',
+           
             
             
-          })
+          }).then((result) => {
+           location.href = "../assests/pages/home.html"
+
+        })
         login_form.style.display = 'none';
         
         
@@ -88,11 +94,23 @@ function logar() {
             {
             title: 'Usuário ou senha incorretos',
             text: 'Tente novamente',
-            icon: 'error'
+            icon: 'error',
+            confirmButtonText: 'OK',
+            showCancelButton: 'Cancelar',
+            cancelButtonText: 'Cancelar',
+            confirmButtonColor: '#00b73f',
+            cancelButtonColor: '#ea4335',
+            
+       
             
             
           }
-        )
+        ).then((result) => {
+            if (result.isDismissed) {
+                location.href = "index.html"
+            } 
+
+        })
     }
     
 }

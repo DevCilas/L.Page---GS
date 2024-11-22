@@ -389,33 +389,3 @@ nav a:hover {
     font-family: var(--header_padrao);
 }
 
-.redes {
-    grid-area: redes;
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
-
-    img {
-        color: white;
-    }
-}
-
-.ong {
-    grid-area: ptn;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 60px;
-
-    h3 {
-        align-content: center;
-        color: white;
-        font-family: var(--header_padrao);
-    }
-
-    img {
-        height: 120px;
-    }
-
-}

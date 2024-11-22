@@ -6,6 +6,7 @@
     --cinza: #435b53;
     --laranja: #ff8900;
     --preto: #181818;
+    --vermelho: #ea4335;
     --header_padrao: 16px;
 }
 
@@ -136,6 +137,7 @@ nav a:hover {
     font-size: var(--header_padrao);
     font-family: var(--fonte-principal);
     transition: 0.2s;
+    
 
 
 }
@@ -146,6 +148,30 @@ nav a:hover {
     
 
 }
+
+.tbotao {
+
+    cursor: pointer;
+    border: 1px solid var(--vermelho);
+    border-radius: 4px;
+    background-color: var(--vermelho);
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+    font-size: var(--header_padrao);
+    font-family: var(--fonte-principal);
+    transition: 0.2s;
+
+
+}
+
+.tbotao:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    
+
+}
+
 
 .meio {
     padding-top: 175px;

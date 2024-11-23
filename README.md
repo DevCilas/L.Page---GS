@@ -5,8 +5,8 @@ Troque pontos pro benefícios e ajude a tornar o mundo um lugar cada vez melhor.
 
 ## 🚀 Código
 
-[PAGES](https://devcilas.github.io/L.Page---GS/)
-[FIGMA](https://www.figma.com/design/ThHQD8lYLLUxA1HVffHxiP/Untitled?node-id=0-1&t=7pI1scINlNMDgudm-1)
+[LINK DO PAGES](https://devcilas.github.io/L.Page---GS/)/
+[LINK DO FIGMA](https://www.figma.com/design/ThHQD8lYLLUxA1HVffHxiP/Untitled?node-id=0-1&t=7pI1scINlNMDgudm-1)
 
 ## ⚙️ Resumo
 

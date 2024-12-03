@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Redirecionamento</title>
+</head>
+<body>
+    <button id="testButton">Clique Aqui</button>
+
+    <script>
+        const button = document.getElementById('testButton');
+        button.addEventListener('click', () => {
+            window.location.href = 'index.html'; // Caminho para redirecionar
+        });
+    </script>
+</body>
+</html>

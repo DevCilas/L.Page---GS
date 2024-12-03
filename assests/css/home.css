@@ -141,9 +141,14 @@ nav a:hover {
 
 }
 
-.sbotao:hover {
-    opacity: 0.9;
-    transform: scale(1.1);
+.sbotao.hovered {
+    text-align: center;
+    width: 5.25rem;
+    height: 2rem;
+    border: 1px solid #ea4335;;
+    color: white;
+    background-color: #ea4335;
+    border: none;
     
 
 }

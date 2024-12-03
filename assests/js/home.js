@@ -17,6 +17,22 @@ document.querySelector('#botao').addEventListener('click', function () {
     }
 })
 
+const button = document.getElementById('entrar');
+
+button.addEventListener('mouseenter', () => {
+    button.textContent = 'Sair';
+    button.classList.add('hovered');
+});
+
+button.addEventListener('mouseleave', () => {
+    button.textContent = 'Admin';
+    button.classList.remove('hovered');
+});
+button.addEventListener('click', () => {
+    if (button.textContent === 'Sair') {
+        window.location.href = "index.html";
+    }
+});
 
 
 

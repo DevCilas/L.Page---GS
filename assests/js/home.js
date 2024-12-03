@@ -30,7 +30,7 @@ button.addEventListener('mouseleave', () => {
 });
 button.addEventListener('click', () => {
     if (button.textContent === 'Sair') {
-        window.location.href = "index.html";
+        window.location.href = "http://127.0.0.1:5500/index.html";
     }
 });
 
